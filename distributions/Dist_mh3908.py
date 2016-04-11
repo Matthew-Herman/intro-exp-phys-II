@@ -10,7 +10,7 @@ class Dist_mh3908(BaseDistribution):
 
 	def pdf(self, x):
 		"""This is your PDF"""
-		return ((x**(1/2))+(1/(x**3)))
+		return ((x**(1./2))+(1/(x**3)))
 
 	def mean(self):
 		"""This is the mean of the PDF"""
